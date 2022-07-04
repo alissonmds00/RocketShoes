@@ -1,0 +1,188 @@
+:root {
+    --button: #FF0000;
+    --main-background: #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+}
+
+* {
+    margin: 0%;
+    text-decoration: none;
+}
+
+header {
+    margin-top: 42px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#logo {
+    left: 4.17%;
+    right: 92.22%;
+    top: 3.61%;
+    bottom: 93.02%;
+    margin-right: 90px;
+}
+
+#bag {
+    display: flex;
+    width: 34px;
+    height: 34px;
+    left: 1346px;
+    top: 47px;
+    margin-right: 40px;
+
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+nav input {
+    width: 220px;
+    height: 45px;
+    padding-left: 60px;
+    background-image: url(assets/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 10px;
+}
+
+nav a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#compra {
+    background-color: var(--main-backgroundbackground);
+    margin-top: 190px;
+    margin-left: 111px;
+    padding-right: 11px;
+    width: 357px;
+    height: 533px;
+}
+
+#compra h1 {
+    width: 357px;
+    height: 272px;
+    left: 111px;
+    top: 190px;
+    font-size: 60px;
+    line-height: 70px;
+    padding-bottom: 21px;
+
+    color: #000000;
+}
+
+#compra p {
+
+    width: 342px;
+    height: 57px;
+    left: 111px;
+    top: 483px;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #9C9696;
+}
+
+#compra h2 {
+    width: 220px;
+    height: 42px;
+    left: 111px;
+    top: 561px;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #000000;
+}
+
+#compra input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 274px;
+    height: 90px;
+    left: 111px;
+    top: 633px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #FF0000;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+}
+
+footer {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+    height: 166.33px;
+    flex-grow: 1;
+    left: 0px;
+    margin-top: 191px;
+}
+
+
+
+
+#mais {
+    flex-flow: row-reverse;
+
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+aside {
+    position: absolute;
+    width: 900px;
+    height: 914px;
+    left: 540px;
+    top: 0px;
+}
+
+#fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 269.51px;
+    height: 182.8px;
+    top: 690.58px;
+    margin-left: 40px;
+}
+
+aside:nth-child(2) {
+    width: 597px;
+    height: 510.82px;
+    left: 697px;
+    top: 174.68px;
+}
