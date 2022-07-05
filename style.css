@@ -12,6 +12,11 @@
     text-decoration: none;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+
 header {
     margin-top: 42px;
     margin-left: 60px;
@@ -27,16 +32,16 @@ header {
     right: 92.22%;
     top: 3.61%;
     bottom: 93.02%;
-    margin-right: 90px;
+    margin-right: 9rem;
 }
 
 #bag {
     display: flex;
-    width: 34px;
-    height: 34px;
-    left: 1346px;
-    top: 47px;
-    margin-right: 40px;
+    width: 3.4rem;
+    height: 3.4rem;
+    left: 134.6rem;
+    top: 4.7rem;
+    margin-right: 4rem;
 
 }
 
@@ -48,66 +53,65 @@ nav {
 }
 
 nav input {
-    width: 220px;
-    height: 45px;
-    padding-left: 60px;
+    width: 22rem;
+    height: 4.5rem;
+    padding-left: 6rem;
     background-image: url(assets/icon-search.svg);
     background-repeat: no-repeat;
-    background-position-x: 20px;
-    background-position-y: 10px;
+    background-position-x: 2rem;
+    background-position-y: 1rem;
 }
 
 nav a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
     text-transform: uppercase;
     color: #000000;
 }
 
 #compra {
     background-color: var(--main-backgroundbackground);
-    margin-top: 190px;
-    margin-left: 111px;
-    padding-right: 11px;
-    width: 357px;
-    height: 533px;
+    margin-top: 19rem;
+    margin-left: 11.1rem;
+    padding-right: 1.1rem;
+    width: 35.7rem;
+    height: 53.3rem;
 }
 
 #compra h1 {
-    width: 357px;
-    height: 272px;
-    left: 111px;
-    top: 190px;
-    font-size: 60px;
-    line-height: 70px;
-    padding-bottom: 21px;
+    width: 35.7rem;
+    height: 27.2rem;
+    left: 11.1rem;
+    top: 19rem;
+    font-size: 6rem;
+    line-height: 7rem;
+    padding-bottom: 2.1rem;
 
     color: #000000;
 }
 
 #compra p {
 
-    width: 342px;
-    height: 57px;
-    left: 111px;
-    top: 483px;
-    font-size: 16px;
-    line-height: 19px;
+    width: 34.2rem;
+    height: 5.7rem;
+    left: 11.1rem;
+    top: 48.3rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
 
     color: #9C9696;
 }
 
 #compra h2 {
-    width: 220px;
-    height: 42px;
-    left: 111px;
-    top: 561px;
-    font-size: 40px;
-    line-height: 47px;
-
+    width: 22rem;
+    height: 4.2rem;
+    left: 11.1rem;
+    top: 56.1rem;
+    font-size: 4rem;
+    line-height: 47rem;
     color: #000000;
 }
 
@@ -115,16 +119,16 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 274px;
-    height: 90px;
-    left: 111px;
-    top: 633px;
-    font-size: 24px;
-    line-height: 28px;
+    width: 27.4rem;
+    height: 9rem;
+    left: 11.1rem;
+    top: 63.3rem;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
     color: #FFFFFF;
     background: #FF0000;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 3.0rem;
 }
 
 .desc {
@@ -138,11 +142,11 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1440px;
-    height: 166.33px;
+    width: 144rem;
+    height: 16.633rem;
     flex-grow: 1;
     left: 0px;
-    margin-top: 191px;
+    margin-top: 19.1rem;
 }
 
 
@@ -164,25 +168,25 @@ footer {
 
 aside {
     position: absolute;
-    width: 900px;
-    height: 914px;
-    left: 540px;
-    top: 0px;
+    width: 90rem;
+    height: 91.4rem;
+    left: 54rem;
 }
 
 #fotos {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
     justify-content: space-between;
-    width: 269.51px;
-    height: 182.8px;
-    top: 690.58px;
-    margin-left: 40px;
+    width: 26.951rem;
+    height: 18.28rem;
+    top: 69.058rem;
+    margin-left: 4rem;
 }
 
 aside:nth-child(2) {
-    width: 597px;
-    height: 510.82px;
-    left: 697px;
-    top: 174.68px;
+    width: 59.7rem;
+    height: 51.082rem;
+    left: 69.7rem;
+    top: 17.468rem;
 }
