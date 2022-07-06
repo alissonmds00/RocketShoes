@@ -8,7 +8,7 @@
 }
 
 * {
-    margin: 0%;
+    margin: 0;
     text-decoration: none;
 }
 
@@ -16,177 +16,128 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+}
 
 header {
-    margin-top: 42px;
-    margin-left: 60px;
+    margin-top: 4rem;
+    margin-left: 6rem;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
-    align-content: center;
-}
-
-#logo {
-    left: 4.17%;
-    right: 92.22%;
-    top: 3.61%;
-    bottom: 93.02%;
-    margin-right: 9rem;
-}
-
-#bag {
-    display: flex;
-    width: 3.4rem;
-    height: 3.4rem;
-    left: 134.6rem;
-    top: 4.7rem;
-    margin-right: 4rem;
-
+    align-items: center;
+    height: 10vh;
 }
 
 nav {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
-    flex: 1;
-}
-
-nav input {
-    width: 22rem;
-    height: 4.5rem;
-    padding-left: 6rem;
-    background-image: url(assets/icon-search.svg);
-    background-repeat: no-repeat;
-    background-position-x: 2rem;
-    background-position-y: 1rem;
-}
-
-nav a {
+    gap: 12rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 2.8rem;
-    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+nav a {
+    display: block;
     color: #000000;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+nav input {
+    background-image: url(assets/icon-search.svg);
+    background-repeat: no-repeat;
+    width: 22rem;
+    height: 4.5rem;
+    padding-left: 4rem;
+    background-position: 1rem 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
 }
 
 #compra {
-    background-color: var(--main-backgroundbackground);
-    margin-top: 19rem;
-    margin-left: 11.1rem;
-    padding-right: 1.1rem;
+    
+    display: flex;
+    flex-basis: 33%;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
     width: 35.7rem;
     height: 53.3rem;
+    margin: 9rem 0 0 11rem  ;
 }
 
-#compra h1 {
-    width: 35.7rem;
-    height: 27.2rem;
-    left: 11.1rem;
-    top: 19rem;
-    font-size: 6rem;
-    line-height: 7rem;
-    padding-bottom: 2.1rem;
 
-    color: #000000;
-}
-
-#compra p {
-
+p#sobre {
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9696;
     width: 34.2rem;
     height: 5.7rem;
-    left: 11.1rem;
-    top: 48.3rem;
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-
-    color: #9C9696;
 }
 
-#compra h2 {
-    width: 22rem;
-    height: 4.2rem;
-    left: 11.1rem;
-    top: 56.1rem;
-    font-size: 4rem;
-    line-height: 47rem;
+h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+    width: 35.7rem;
+    height: 27.2rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 40px;
+    line-height: 4.7rem;
+
     color: #000000;
 }
 
 #compra input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 3rem;
+    background: #FF0000;
     width: 27.4rem;
     height: 9rem;
-    left: 11.1rem;
-    top: 63.3rem;
-    font-size: 2.4rem;
-    line-height: 2.8rem;
+    text-transform: uppercase;
     color: #FFFFFF;
-    background: #FF0000;
-    text-transform: uppercase;
-    margin-top: 3.0rem;
-}
-
-.desc {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-}
-
-footer {
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 144rem;
-    height: 16.633rem;
-    flex-grow: 1;
-    left: 0px;
-    margin-top: 19.1rem;
-}
-
-
-
-
-#mais {
-    flex-flow: row-reverse;
-
-    display: flex;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
+    justify-content: start;
 }
 
 aside {
-    position: absolute;
-    width: 90rem;
-    height: 91.4rem;
-    left: 54rem;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 1.8rem;
+    flex-grow: 1;
+    background: #C4C4C4;
 }
 
-#fotos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
+#demo {
+    margin: 0 2rem 1.8rem;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
     justify-content: space-between;
-    width: 26.951rem;
-    height: 18.28rem;
-    top: 69.058rem;
-    margin-left: 4rem;
 }
 
-aside:nth-child(2) {
-    width: 59.7rem;
-    height: 51.082rem;
-    left: 69.7rem;
-    top: 17.468rem;
+footer {
+    display: none;
 }
+
+video {
+    display: none;
+}
+
+#mainimg {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
