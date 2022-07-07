@@ -19,8 +19,9 @@ html {
 body {
     height: 100vh;
     width: 100vw;
-    background-color: var(--main-background);
-    background-size: 60% 80%;
+    background: var(--main-background) top left / 30% 100% no-repeat,
+    var(--background) top right / 60% 80% no-repeat;
+    /*Realmente não consegui colocar os dois backgrounds :/ */
     
 }
 
@@ -68,7 +69,6 @@ main {
 }
 
 #compra {
-
     display: flex;
     flex-basis: 37%;
     flex-direction: column;
@@ -142,6 +142,7 @@ footer {
 
 footer {
     display: flex;
+    background: var(--background);
     flex-direction: row;
     flex-grow: 1;
     justify-content: space-between;
@@ -149,6 +150,7 @@ footer {
 }
 
 footer a {
+    display: flex;
     flex: 1;
     font-family: 'Roboto';
     font-style: normal;
@@ -169,14 +171,11 @@ footer a:nth-child(6) {
     background-image: url(assets/icon-arrow.svg);
     background-repeat: no-repeat;
     background-size: 1.8rem;
-    background-position-x: 20rem;
+    background-position-x: 23rem;
     background-position-y: 9.2rem;
 }
 
 video {
     height: 21rem
-    
 }
 
-#mais {
-}
